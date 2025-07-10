@@ -1,0 +1,10 @@
+#print arithmatic operations using functions
+def cal(a,b):
+    return a+b, a-b, a*b, a/b
+a=int(input("enter the value of a:"))
+b=int(input("enter the value of b:"))
+sum, sub, mul, div=cal(a,b)
+print("sum=",sum)
+print("sub=",sub)
+print("mul=",mul)
+print("div=",div)
