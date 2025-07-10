@@ -1,0 +1,5 @@
+def hi():#callee
+    print("Hello students")#responces of callee
+    print("Ravi "*5)
+hi()#caller
+#no argument pass no return value
