@@ -1,0 +1,4 @@
+a=100
+def value(a):
+    return a+50
+print("value is",value(a))
