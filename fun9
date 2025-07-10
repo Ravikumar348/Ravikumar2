@@ -1,0 +1,11 @@
+#finding max,min values
+def cal(a,b,c):
+    return max(a,b,c),min(a,b,c)
+   
+a=int(input("enter the a value:"))
+b=int(input("enter the b value:"))
+c=int(input("enter the c value:"))
+max,min=cal(a,b,c)
+    
+print("maximum:",max)
+print("Minimum:",min)
