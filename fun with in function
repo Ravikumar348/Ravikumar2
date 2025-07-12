@@ -1,0 +1,9 @@
+#syntax def outer()and inner():
+    print("This is outer function...")
+    def inner():
+        print("This is inner function.....")
+        def innerwithininner():
+            print("This is inner with in inner....")
+        innerwithininner()
+    inner()
+outer()
